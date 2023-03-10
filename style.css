@@ -1,0 +1,271 @@
+
+@font-face {
+    font-family: face;
+    
+    src: url(fontes/Bebas_Neue/BebasNeue-Regular.ttf)
+}
+@font-face {
+    font-family: face2;
+    src: url(fontes/idroid.otf);
+}
+@font-face {
+    font-family: face3;
+    src: url(fontes/RubikIso-Regular.ttf);
+}
+*{
+    margin:0%;
+    padding:0%;
+}
+
+:root{
+    --cor0: #e8e6c3;
+    --cor2: ;
+    --cor3: ;
+    --cor4: ;
+    --cor5: ;
+    --cor6: ;
+    --cor7: ;
+    --cor8: rgba(0, 0, 0, 0.481);
+}
+
+header > h1{
+    text-align: center;
+    color: white;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font: normal 70px face;
+    text-shadow: 2px 2px 2px var(--cor8);
+    
+    
+
+    
+}
+header > h2{
+    text-align: center;
+    color: white;
+    font: normal 1.6em Arial ;
+    text-shadow: 2px 2px 2px var(--cor8);
+    padding-top: 20px;
+    padding: 0%;
+    margin: 0%;
+    padding-bottom: 40px;
+    
+
+}
+header > p{
+    
+    color: white;
+    font: normal 1.3em Arial ;
+    text-shadow: 2px 2px 2px var(--cor8);
+    display: inline-block;
+    text-align: justify;
+    margin-left: -29px;
+    margin-right: 65px; 
+    margin-bottom: 20px;
+
+    
+    
+}
+header > .p1 > a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.578)
+    
+    
+}
+header > .p1 > a:hover{
+    color:white;
+    background-color: #109756a1;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.4s;
+
+    
+}
+.p1:hover{
+    text-decoration: underline rgb(39, 119, 39);
+   
+
+
+}
+
+header{
+    background: linear-gradient(to bottom, #26A560, #042F1A);
+    box-shadow: 2px 8px 8px rgba(0, 0, 0, 0.352);
+    padding: 60px 50px 0px 50px;
+    
+}
+
+body{
+    background-color: var(--cor0);
+}
+main{
+    background-color: white;
+    max-width: 1000px;
+    min-width: 320px;
+    padding: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0px 14px 10px  rgba(0, 0, 0, 0.378);
+    border-radius: 0px 0px 10px 10px;
+    margin: auto;
+    
+}
+
+main>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-indent: 40px;
+    word-spacing: 10px ;
+    line-height: 40px;
+    margin: 20px;
+}
+main>h1{
+    font: normal 40px face2;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: #0f4427;
+    margin-top: 0;
+}
+main>h2{
+    font: normal 30px face2;
+    padding-left: 20px;
+    padding-top: 0px;
+    color: #145b34;
+    background: linear-gradient(to right, rgba(0, 205, 0, 0.496), white);
+    border-radius: 2px;
+}
+
+main> p> .mark{
+    background-color: rgba(0, 205, 0, 0.436);
+    border-radius: 3px;
+    color: #042F1A;
+    font-weight: bold;
+}
+.mark>a{
+    text-decoration: none;
+    color: rgba(9, 23, 1, 0.874);
+    
+}
+.mark:hover{
+    text-decoration: underline rgb(1, 143, 110);
+    
+}
+.mark::after{
+    content: ' 🔗 ';
+    text-decoration: none;
+    color: black;
+}
+.mark1{
+    font-weight: bold;
+    color: #145b34;
+
+}
+
+img{
+    width: 100%;
+    
+}
+
+
+.bugdroid{
+    width: 300px;
+    margin: 0 auto;
+
+}
+div.yt{
+    
+    
+    margin: 0px 20px 30px 20px;
+    padding: 20px 20px 20px 20px;
+    padding-bottom: 51.9%;
+    position: relative;
+
+}
+div.yt > iframe{
+    position: absolute;
+    
+    
+    width: 93%;
+    height: 90%;
+}
+#tabela{
+   
+    
+    background-color: #83e1ad;
+    margin-top: -3px;
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 8px 8px rgba(0, 0, 0, 0.352);
+    
+    
+}
+nav > h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-indent: 0.6em;
+    margin: 2px;
+    padding: 2px;
+   
+    font: normal 30px Arial;
+    font-weight: bold;
+
+}
+div > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-indent: 40px;
+    word-spacing: 10px ;
+    line-height: 40px;
+    margin: 20px;  
+}
+nav{
+    background-color: #0c4e29;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    box-shadow: 2px 1px 8px rgba(0, 0, 0, 0.352);
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+li{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    margin: 20px;
+   
+
+    
+     
+}
+ul{
+   
+    
+    list-style-type: '\1F5F8\00A0\00A0';
+    columns: 2;
+    list-style-position: inside;
+
+    
+}
+
+footer{
+    background-color: #042F1A;
+    margin: 0%;
+    padding: 0%;
+
+}
+footer>p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    
+}
